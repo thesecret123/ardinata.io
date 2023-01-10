@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+}
+:root {
+    --primary:#068091;
+    --secondary:#fe8800;
+    --light: #eaeaee;
+    --dark:#1d1d1d;
+}
+
+
+
+/* hero header */
+.hero-header {
+    background:linear-gradient(rgba(20,20,31,0.7),rgba(20,20,31,0.7)), url(latar\ 1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+
+.card-destination {
+    padding: 40px 15px;
+    text-align: center;
+}
+
+.hover-div {
+    padding: 20px 20px;
+    text-align: center;
+    min-height: 350px;
+}
+
+.hover-div {
+    border-top: 1px solid #f8f8f8;
+    background: #46b150;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    margin: 10px 0px;
+}
+
+.hover-div:hover {
+    -webkit-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    transform: translateY(-20px);
+    box-shadow: 0 22px 43px rgba(0, 0, 0, 0.32);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hover-div_inner h3 a{
+    color: #1d1d1d;
+    text-decoration: none;
+}
+/* contact */
+.contact {
+    background-image: url("latar\ 1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    margin: 0px 30px;
+    padding: 0px 10px;
+  }
+  
+  .contact input {
+    height: 4rem;
+    margin-bottom: 2rem;
+  }
+
+/* footer */
+.container-footer {
+  width: 100%;
+  left:0;
+  right:0;
+}
